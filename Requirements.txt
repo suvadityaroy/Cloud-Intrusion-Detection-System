@@ -1,0 +1,22 @@
+boto3==1.26.80
+numpy==1.23.5
+scikit-learn==1.1.2
+requests==2.31.0
+
+# AWS credentials
+AWS_ACCESS_KEY_ID=your_aws_access_key
+AWS_SECRET_ACCESS_KEY=your_aws_secret_access_key
+AWS_REGIONS=us-east-1,us-west-2,eu-west-1
+
+# Detection configuration
+MAX_EVENTS=50
+LOOKBACK_HOURS=24
+
+# Email credentials
+SENDER_EMAIL=your_sender_email@gmail.com
+EMAIL_PASSWORD=your_email_password
+RECEIVER_EMAIL=receiver_email@gmail.com
+
+# Optional: Slack webhook for notifications
+SLACK_WEBHOOK_URL=https://hooks.slack.com/services/YOUR/WEBHOOK/URL
+

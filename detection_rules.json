@@ -1,0 +1,17 @@
+{
+  "monitor_root_account": true,
+  "monitor_failed_logins": true,
+  "monitor_iam_changes": true,
+  "monitor_resource_deletions": true,
+  "monitor_cloudtrail_disabled": true,
+  "failed_login_threshold": 5,
+  "critical_resources": [
+    "EC2",
+    "RDS",
+    "DynamoDB",
+    "Lambda",
+    "S3"
+  ],
+  "excluded_users": [],
+  "excluded_events": []
+}
